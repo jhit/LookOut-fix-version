@@ -1,3 +1,7 @@
+7.4.3
+* Unwrap OLE-embedded attachments (ATTACH_METHOD 6, e.g. inline images from Outlook Rich Text mails) into viewable images (BMP/PNG/JPEG/GIF) with the correct MIME type and a usable filename instead of an "Untitled Attachment" binary blob (PR #164 by BocaDeAngu).
+* Max Version bump to TB 160.*
+
 7.4.2
 * Fix umlauts in replaced message body (decode legacy codepages).
 * Max Version bump to TB 158.*
